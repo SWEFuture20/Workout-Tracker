@@ -17,6 +17,8 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workplan", {
   useFindAndModify: false
 });
 
+require("./routes/wokplan")(app);
+require("./routes/excerciseroutes")(app);
 
 app.listen(PORT, () => {
     console.log(`App running on port ${PORT}!`);
