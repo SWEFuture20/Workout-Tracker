@@ -25,13 +25,13 @@ const Excercise = new Schema({
           weight: {
             type: Number
           },
-          reps: {
+          walks: {
             type: Number
           },
-          sets: {
+          lifts: {
             type: Number
           },
-          distance: {
+          runs: {
             type: Number
           }
       }
