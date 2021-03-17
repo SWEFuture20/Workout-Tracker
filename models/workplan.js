@@ -38,6 +38,6 @@ const Excercise = new Schema({
     ]
   });
 
-  const workplan = mongoose.model("workout", Excercise);
+  const Workplan = mongoose.model("workplan", Excercise);
   
-  module.exports = workplan;
+  module.exports = Workplan;

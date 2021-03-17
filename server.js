@@ -14,10 +14,11 @@ app.use(express.static("public"));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workplan", {
   useNewUrlParser: true,
-  useFindAndModify: false
+  useFindAndModify: false,
+  useUnifiedTopology: true
 });
 
-require("./routes/wokplan")(app);
+require("./routes/workPlans")(app);
 require("./routes/excerciseroutes")(app);
 
 app.listen(PORT, () => {
