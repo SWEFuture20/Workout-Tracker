@@ -8,7 +8,7 @@ The technology that was used in this were HTML, Javascript (jQuery), MongoDB (mo
 
 ## Screenshots
 
-![Screenshot](/relative/path/to/WORKOUT-TRACKER.png?raw=true "Screenshot")
+![Home Page](/WORKOUT-TRACKER.png?raw=true)
 
 
 ## Contact
